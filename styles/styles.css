@@ -22,13 +22,13 @@
 }
 
 .light-mode {
-  --color-primary: #d4d4d4;
+  --color-primary: #c2c2c2;
   --color-secondary: #16862e;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
-  --color-grey-1: #6c7983;
-  --color-grey-2: #6c7983;
+  --color-grey-1: #373e44;
+  --color-grey-2: #373e44;
   --color-grey-3: #6c7983;
   --color-grey-4: #454e56;
   --color-grey-5: #f8f8f8;
@@ -680,19 +680,15 @@ section {
     padding-bottom: 6rem;
   }
   .portfolios {
-    grid-template-columns: 1fr !important;
     padding-bottom: 6rem;
   }
   .contact-content-con {
     padding-bottom: 6rem;
   }
-  .section {
-    padding: 2rem 2.5rem !important;
-  }
 }
 @media screen and (max-width: 700px) {
   .section {
-    padding: 7rem 3rem;
+    padding: 2rem 2.5rem !important;
   }
   .about-stats .progress-bars {
     grid-template-columns: 1fr;
@@ -709,9 +705,6 @@ section {
   }
   .about-container .left-about p {
     padding-left: 0;
-  }
-  .portfolios {
-    grid-template-columns: 1fr !important;
   }
   .main-title h2 {
     font-size: 3rem;
@@ -755,6 +748,9 @@ section {
   .header-content .left-header .image {
     margin: 0 auto;
     width: 90%;
+  }
+  .portfolios {
+    grid-template-columns: 1fr !important;
   }
   .controls {
     top: auto;
