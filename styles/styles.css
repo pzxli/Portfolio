@@ -47,7 +47,7 @@ a {
   display: inline-block;
   text-decoration: none;
   color: inherit;
-  font-family: interit;
+  font-family: inherit;
 }
 
 header {
@@ -212,12 +212,15 @@ section {
   flex-direction: column;
   justify-content: center;
   padding-right: 18rem;
+  text-align: center;
 }
 .header-content .right-header .name {
+  align-items: center;
   font-size: 3rem;
 }
 .header-content .right-header .name span {
   color: var(--color-secondary);
+  align-items: center;
 }
 .header-content .right-header p {
   margin: 1.5rem 0;
@@ -590,7 +593,7 @@ section {
 /*Independent components*/
 .btn-con {
   display: flex;
-  align-self: flex-start;
+  align-self: center;
 }
 
 .main-btn {
@@ -679,7 +682,10 @@ section {
     padding-bottom: 6rem;
   }
   .portfolios {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
+    padding-bottom: 6rem;
+  }
+  .contact-content-con {
     padding-bottom: 6rem;
   }
   .section {
@@ -705,6 +711,9 @@ section {
   }
   .about-container .left-about p {
     padding-left: 0;
+  }
+  .portfolios {
+    grid-template-columns: 1fr !important;
   }
   .main-title h2 {
     font-size: 3rem;
@@ -770,9 +779,6 @@ section {
   .about-container .right-about {
     padding-top: 2.5rem;
   }
-  .portfolios {
-    grid-template-columns: 1fr 1fr;
-  }
   .main-title h2 {
     font-size: 4rem;
   }
@@ -789,6 +795,9 @@ section {
   }
   .section {
     padding: 7rem 11rem;
+  }
+  .portfolios {
+    grid-template-columns: 1fr 1fr;
   }
   .contact-content-con {
     flex-direction: column;
