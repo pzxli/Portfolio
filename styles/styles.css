@@ -22,8 +22,8 @@
 }
 
 .light-mode {
-  --color-primary: #FFFFFF;
-  --color-secondary: #F56692;
+  --color-primary: #d4d4d4;
+  --color-secondary: #16862e;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -436,8 +436,6 @@ section {
 .portfolios .portfolio-item img {
   width: 100%;
   height: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
   border-radius: 15px;
 }
 .portfolios .portfolio-item .hover-items {
